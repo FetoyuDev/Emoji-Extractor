@@ -18,21 +18,21 @@ case $ext in
 "1")
 ext="png"
 mkdir -p extracted_Emojis
-echo "Formato de salida elegido: WEBP"
+echo "Formato de salida elegido: PNG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/$emoji_id.$ext
 echo "Emoji extraído con éxito"
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
-echo "Formato de salida elegido: WEBP"
+echo "Formato de salida elegido: JPG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/$emoji_id.$ext
 echo "Emoji extraído con éxito"
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
-echo "Formato de salida elegido: WEBP"
+echo "Formato de salida elegido: GIF"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/$emoji_id.$ext
 echo "Emoji extraído con éxito"
 ;;

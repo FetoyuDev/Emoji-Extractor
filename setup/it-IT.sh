@@ -1,16 +1,16 @@
 #!/bin/bash
 
 clear
-echo "Isso foi traduzido por: fetoyudev_official - 🍭♡フェフェくん♡🍭"
+echo ""
 sleep 3
 clear
 sleep 2
-cat ./lang/pt-br.txt
+cat ./lang/it-IT.txt
 echo ""
 read -p "> " emoji_id
 sleep 1
 clear
-cat ./lang/choice/pt-br.txt
+cat ./lang/choice/it-IT.txt
 echo ""
 read -p "> " ext
 
@@ -18,33 +18,33 @@ case $ext in
 "1")
 ext="png"
 mkdir -p extracted_Emojis
-echo "Formato de saída escolhido: PNG"
+echo ": PNG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extraído com sucesso"
+echo ""
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
-echo "Formato de saída escolhido: JPG"
+echo ": JPG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extraído com sucesso"
+echo ""
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
-echo "Formato de saída escolhido: GIF"
+echo ": GIF"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extraído com sucesso"
+echo ""
 ;;
 "4")
 ext="webp"
 mkdir -p extracted_Emojis
-echo "Formato de saída escolhido: WEBP"
+echo ": WEBP"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extraído com sucesso"
+echo ""
 ;;
 *) 
-echo "Opção inválida"
+echo ""
 exit 1
 ;;
 esac

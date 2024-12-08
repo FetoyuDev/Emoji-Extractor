@@ -18,21 +18,21 @@ case $ext in
 "1")
 ext="png"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: WEBP"
+echo "Output Format Choosen: PNG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extracted successfully"
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: WEBP"
+echo "Output Format Choosen: JPG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extracted successfully"
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: WEBP"
+echo "Output Format Choosen: GIF"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extracted successfully"
 ;;
@@ -44,7 +44,7 @@ curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discord
 echo "Emoji extracted successfully"
 ;;
 *) 
-echo "Opção inválida"
+echo "Invalid Option"
 exit 1
 ;;
 esac

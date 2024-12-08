@@ -18,21 +18,21 @@ case $ext in
 "1")
 ext="png"
 mkdir -p extracted_Emojis
-echo "選択した出力形式: WEBP"
+echo "選択した出力形式: PNG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "絵文字が正常に抽出されました"
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
-echo "選択した出力形式: WEBP"
+echo "選択した出力形式: JPG"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "絵文字が正常に抽出されました"
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
-echo "選択した出力形式: WEBP"
+echo "選択した出力形式: GIF"
 curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "絵文字が正常に抽出されました"
 ;;
