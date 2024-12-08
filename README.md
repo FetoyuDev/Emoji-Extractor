@@ -47,4 +47,4 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 # Contributors
 ### Thank you so much
 - Javialon - Lead es-MX
-- Rallie - Lead tr-TR
+- rallie - Lead tr-TR
