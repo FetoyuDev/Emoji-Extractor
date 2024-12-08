@@ -42,6 +42,19 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 ![Imagem De Exemplo 6](https://cdn.discordapp.com/attachments/1315079883944099840/1315379526410305617/extracted_1252052825320591360.png?ex=67573225&is=6755e0a5&hm=287c1b7000bbfb675b4201c6f735b4c03b705cef4729e6e5b09eea555e169d7d&)
 
+# Extras
+## Nós temos suporte a vários idiomas, veja a lista dos idiomas disponíveis
+- Português **Você está aqui**
+- Inglês --> [Veja o guia em inglês](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README.md)
+- Espanhol --> [Veja o guia em espanhol](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-ES.md)
+- Turco --> [Veja o guia em turco](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-TR.md)
+
+## Guias Que Estão Sendo Desenvolvidos
+- Francês
+- Japonês
+- Russo
+- Italiano
+
 # Contribuidores
 ### Muito obrigado
 - Javialon - Lider es-MX

@@ -6,3 +6,4 @@ Select your language
 5. Japanese
 6. French
 7. Turkish
+8. Italian
