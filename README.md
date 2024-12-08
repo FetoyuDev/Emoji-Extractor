@@ -49,13 +49,13 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 - English [You're here]
 - Turkish --> [See turkish guide](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-TR.md)
 - Portuguese --> [See portuguese guide](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-PT.md)
+- Spanish --> [See spanish guide](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-ES.md)
 
 ## Working in progress guides
 - French
 - Japanese
 - Russian
 - Italian
-- Spanish
 
 # Contributors
 ### Thank you so much
