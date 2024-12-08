@@ -46,6 +46,5 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 # Contributors
 ### Thank you so much
-- Fetoyu - Lead pt-BR, en-US, ja-JP, ru-RU
 - Javialon - Lead es-MX
 - Rallie - Lead tr-TR
