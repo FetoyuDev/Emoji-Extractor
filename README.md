@@ -7,7 +7,7 @@ Emoji Extractor is a simple tool that I've made to extract and download custom e
 # Setup
 - Download this tool with
 ```bash
-git clone https://github.com/FetoyuDev/Emoji-Extractor && cd Emoji-Extractor && && sudo chmod +X init.sh && sh init.sh
+git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && && sudo chmod +X init.sh && sh init.sh
 ```
 
 # Getting Started
