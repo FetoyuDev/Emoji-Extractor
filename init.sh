@@ -17,15 +17,10 @@ sh ./setup/es.sh
 sh ./setup/pt-br.sh
 ;;
 "4")
-sh ./setup/ru.sh
-;;
-"5")
-sh ./setup/jp.sh
-;;
-"6")
-sh ./setup/fr.sh
-;;
-"7")
 sh ./setup/tr.sh
+;;
+*)
+echo "Invalid Option"
+exit 1
 ;;
 esac

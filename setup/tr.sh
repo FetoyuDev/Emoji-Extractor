@@ -1,5 +1,7 @@
 #!/bin/bash
 
+dircustom="./extracted_Emojis"
+
 clear
 echo " **rallieblegh** tarafından sizin için çevirildi <3 "
 sleep 3
@@ -19,28 +21,104 @@ case $ext in
 ext="png"
 mkdir -p extracted_Emojis
 echo "Seçilen Dosya Formatı: PNG"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo "" # It's a separator, don't remove this line or add text here, please, ok?
+echo "Which folder do you want save extracted emoji?"
+echo "1. Default Folder"
+echo "2. Custom Folder"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "the emoji will be saved at default folder"
+;;
+"2")
+echo "Provide the path to custom folder"
+read -p "> " dircustom
+echo "The emoji will be saved at custom folder"
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji başarılıyla dönüştürüldü!"
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
 echo "Seçilen Dosya Formatı: JPG"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo "" # It's a separator, don't remove this line or add text here, please, ok?
+echo "Which folder do you want save extracted emoji?"
+echo "1. Default Folder"
+echo "2. Custom Folder"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "the emoji will be saved at default folder"
+;;
+"2")
+echo "Provide the path to custom folder"
+read -p "> " dircustom
+echo "The emoji will be saved at custom folder"
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji başarılıyla dönüştürüldü!"
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
 echo "Seçilen Dosya Formatı: GIF"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo "" # It's a separator, don't remove this line or add text here, please, ok?
+echo "Which folder do you want save extracted emoji?"
+echo "1. Default Folder"
+echo "2. Custom Folder"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "the emoji will be saved at default folder"
+;;
+"2")
+echo "Provide the path to custom folder"
+read -p "> " dircustom
+echo "The emoji will be saved at custom folder"
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji başarılıyla dönüştürüldü!"
 ;;
 "4")
 ext="webp"
 mkdir -p extracted_Emojis
 echo "Seçilen Dosya Formatı: WEBP"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo "" # It's a separator, don't remove this line or add text here, please, ok?
+echo "Which folder do you want save extracted emoji?"
+echo "1. Default Folder"
+echo "2. Custom Folder"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "the emoji will be saved at default folder"
+;;
+"2")
+echo "Provide the path to custom folder"
+read -p "> " dircustom
+echo "The emoji will be saved at custom folder"
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji başarılıyla dönüştürüldü!"
 ;;
 *)

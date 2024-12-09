@@ -3,16 +3,16 @@
 dircustom="./extracted_Emojis"
 
 clear
-echo "This was translated by: fetoyudev_official - 🍭♡フェフェくん♡🍭"
+echo ""
 sleep 3
 clear
 sleep 2
-cat ./lang/en-us.txt
+cat ./lang/fr.txt
 echo ""
 read -p "> " emoji_id
 sleep 1
 clear
-cat ./lang/choice/en-us.txt
+cat ./lang/choice/fr.txt
 echo ""
 read -p "> " ext
 
@@ -20,7 +20,7 @@ case $ext in
 "1")
 ext="png"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: PNG"
+echo ": PNG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
 echo "Which folder do you want save extracted emoji?"
 echo "1. Default Folder"
@@ -41,12 +41,12 @@ esac
 
 
 curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extracted successfully"
+echo ""
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: JPG"
+echo ": JPG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
 echo "Which folder do you want save extracted emoji?"
 echo "1. Default Folder"
@@ -67,12 +67,12 @@ esac
 
 
 curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extracted successfully"
+echo ""
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: GIF"
+echo ": GIF"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
 echo "Which folder do you want save extracted emoji?"
 echo "1. Default Folder"
@@ -92,13 +92,14 @@ echo "The emoji will be saved at custom folder"
 esac
 
 
+
 curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extracted successfully"
+echo ""
 ;;
 "4")
 ext="webp"
 mkdir -p extracted_Emojis
-echo "Output Format Choosen: WEBP"
+echo ": WEBP"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
 echo "Which folder do you want save extracted emoji?"
 echo "1. Default Folder"
@@ -119,10 +120,10 @@ esac
 
 
 curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
-echo "Emoji extracted successfully"
+echo ""
 ;;
 *) 
-echo "Invalid Option"
+echo "Option invalide"
 exit 1
 ;;
 esac
