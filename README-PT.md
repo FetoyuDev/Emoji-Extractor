@@ -3,6 +3,33 @@ Emoji Extractor é uma ferramenta simples que eu criei para extrair e baixar emo
 
 # Aviso
 - **Essa ferramenta requer o curl instalado, caso contrário, não irá funcionar**
+- **Mas para sua sorte, eu irei te mostrar como instalar o curl em diferentes distros**
+
+### Para distros baseadas em Ubuntu/Debian
+```bash
+sudo apt update -y && sudo apt install curl git -y
+```
+
+### Para distros baseadas em Fedora/CentOS/Red Hat
+- Se o sistema usa "yum"
+```bash
+sudo yum install curl git -y
+```
+
+- Se o sistema usa "DNF"
+```bash
+sudo dnf install curl git -y
+```
+
+### Para distros baseadas em Arch Linux
+```bash
+sudo pacman install -Sy curl git --noconfirm
+```
+
+### Para distros baseadas em openSUSE
+```bash
+sudo zypper install curl git -y
+```
 
 # Configuração
 - Baixe essa ferramenta com o comando
@@ -45,6 +72,7 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 ### Quais são as novidades?
 - Adiciona o suporte para salvar os emojis extraídos em uma pasta customizada
 - Corrigido uma falha que poderia causar confusão nos usuário dependendo do idioma deles
+- Adicionado instrução "Como instalar curl e git em diferentes distros"
 
 ### Qual é a próxima novidade?
 - Será adicionado um sistema de resumo para mostrar todos os emojis extraídos, independente da extensão do emoji
