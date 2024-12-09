@@ -1,5 +1,0 @@
-Choisissez le format de sortie de l'emoji
-1. PNG
-2. JPG
-3. GIF
-4. WEBP
