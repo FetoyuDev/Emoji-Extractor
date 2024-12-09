@@ -1,5 +1,7 @@
 #!/bin/bash
 
+dircustom="./extracted_Emojis"
+
 clear
 echo "Esto fue traducido por: javialon_qv - Javialon_qv"
 sleep 3
