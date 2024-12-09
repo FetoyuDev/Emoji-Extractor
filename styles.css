@@ -1,3 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    border-style: dashed;
+    border-radius: 12%;
+}
+
 .imagem-blur {
     position: relative;
     width: 100%;
