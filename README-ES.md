@@ -48,7 +48,7 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 # Extras
 ## Soportamos mutiples idiomas, mira la lista con los idiomas disponibles aquí abajo.
-- Español [Estás aquí]
+- Español **[Estás aquí]**
 - Inglés -->  [Mira la guía en inglés](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README.md)
 - Turco --> [Mira la guía en turco](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-TR.md)
 - Portugués --> [Mira la guía en portugués](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-PT.md)

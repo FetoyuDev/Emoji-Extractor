@@ -46,9 +46,9 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 - Adiciona o suporte para salvar os emojis extraídos em uma pasta customizada
 - Corrigido uma falha que poderia causar confusão nos usuário dependendo do idioma deles
 
-### What's next?
-- Will be added a summary system to show all extracted emojis, regarding of emoji extension
-- The user will be able to open a bunch of extracted emojis of the same extension or all in the same time
+### Qual é a próxima novidade?
+- Será adicionado um sistema de resumo para mostrar todos os emojis extraídos, independente da extensão do emoji
+- O usuário será capaz de abrir um monte de emojis extraídos da mesma extensão ou todas de uma única vez
 
 # Extras
 ## Nós temos suporte a vários idiomas, veja a lista dos idiomas disponíveis
