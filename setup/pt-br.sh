@@ -1,5 +1,7 @@
 #!/bin/bash
 
+dircustom="./extracted_Emojis"
+
 clear
 echo "Isso foi traduzido por: fetoyudev_official - 🍭♡フェフェくん♡🍭"
 sleep 3
@@ -19,28 +21,105 @@ case $ext in
 ext="png"
 mkdir -p extracted_Emojis
 echo "Formato de saída escolhido: PNG"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo ""
+echo "Onde Você deseja salvar o emoji extraído?"
+echo "1. Pasta Padrão"
+echo "2. Pasta Personalizada"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "O emoji será salvo na pasta padrão."
+;;
+"2")
+echo "Insira o caminho da pasta personalizada"
+read -p "> " dircustom
+echo "O emoji será salvo na pasta personalizada."
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extraído com sucesso"
 ;;
 "2")
 ext="jpg"
 mkdir -p extracted_Emojis
 echo "Formato de saída escolhido: JPG"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo ""
+echo "Onde Você deseja salvar o emoji extraído?"
+echo "1. Pasta Padrão"
+echo "2. Pasta Personalizada"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "O emoji será salvo na pasta padrão."
+;;
+"2")
+echo "Insira o caminho da pasta personalizada"
+read -p "> " dircustom
+echo "O emoji será salvo na pasta personalizada."
+;;
+esac
+
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extraído com sucesso"
 ;;
 "3")
 ext="gif"
 mkdir -p extracted_Emojis
 echo "Formato de saída escolhido: GIF"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo ""
+echo "Onde Você deseja salvar o emoji extraído?"
+echo "1. Pasta Padrão"
+echo "2. Pasta Personalizada"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "O emoji será salvo na pasta padrão."
+;;
+"2")
+echo "Insira o caminho da pasta personalizada"
+read -p "> " dircustom
+echo "O emoji será salvo na pasta personalizada."
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extraído com sucesso"
 ;;
 "4")
 ext="webp"
 mkdir -p extracted_Emojis
 echo "Formato de saída escolhido: WEBP"
-curl -L --output ./extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
+echo ""
+echo "Onde Você deseja salvar o emoji extraído?"
+echo "1. Pasta Padrão"
+echo "2. Pasta Personalizada"
+read -p "> " dircustom
+
+case $dircustom in
+"1")
+dircustom="./extracted_Emojis"
+echo "O emoji será salvo na pasta padrão."
+;;
+"2")
+echo "Insira o caminho da pasta personalizada"
+read -p "> " dircustom
+echo "O emoji será salvo na pasta personalizada."
+;;
+esac
+
+
+curl -L --output $dircustom/extracted_Emojis/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo "Emoji extraído com sucesso"
 ;;
 *) 
