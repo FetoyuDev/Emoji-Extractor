@@ -44,6 +44,15 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 ![Example image 7](https://cdn.discordapp.com/attachments/1315079883944099840/1315115915461005344/extracted_857803527422083094.png?ex=67563ca3&is=6754eb23&hm=cdfe278ef9d71fe3fecdad4203f5f546bfbe177124d56fd67636be633fb37cce&)
 
+
+### What's new?
+- Added support to save extracted emojis in a custom folder
+- Fixed some bugs that would cause confusion in some users depending of their language
+
+### What's next?
+- Will be added a summary system to show all extracted emojis, regarding of emoji extension
+- The user will be able to open a bunch of extracted emojis of the same extension or all in the same time
+
 # Extras
 ## We support multiple languages, check out the list of avaliable languages below
 - English [You're here]
