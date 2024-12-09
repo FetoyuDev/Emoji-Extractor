@@ -1,6 +1,7 @@
 #!/bin/bash
 
 dircustom="./extracted_Emojis"
+# I don't going add a custom folder system into tomorrow at 15:30 of "Brasilia" timezone
 
 clear
 echo "This was translated by: fetoyudev_official - 🍭♡フェフェくん♡🍭"
