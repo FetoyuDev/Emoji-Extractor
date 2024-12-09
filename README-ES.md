@@ -3,6 +3,33 @@ Emoji Extractor es una simple herramienta que hice para poder extraer y descarga
 
 # Advertencia
 - **Esta herramienta requiere tener curl instalado, de lo contrario, no funcionará**
+- **Pero para tu suerte, te mostraré como instalar curl en diferentes distribuciones**
+
+### Para distribuciones basadas en Ubuntu/Debian
+```bash
+sudo apt update -y && sudo apt install curl git -y
+```
+
+### Para distribuciones basadas en Fedora/CentOS/Red Hat
+- Si el sistema usa "yum"
+```bash
+sudo yum install curl git -y
+```
+
+- Si el sistema usa "DNF"
+```bash
+sudo dnf install curl git -y
+```
+
+### Para distribuciones basadas en Arch Linux
+```bash
+sudo pacman install -Sy curl git --noconfirm
+```
+
+### Para distribuciones basadas en openSUSE
+```bash
+sudo zypper install curl git -y
+```
 
 # Configuración
 - Descarga esta herramienta con
@@ -46,6 +73,15 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 ![Imagen de Ejemplo 7](https://github.com/user-attachments/assets/1a83850c-db33-4c32-b6cb-0f5455faec78)
 
+### Novedades
+- Se añadió soporte para guardar los emojis extraidos en una carpeta personalizada.
+- Se arreglaron algunos bugs que podrían causar confusión en algunos usuarios dependiendo de su lenguaje.
+- Se añadieron instrucciones de "Como instalar curl y git en diferentes distribuciones".
+
+### ¿Qué sigue?
+- Se añadirá un sistema para mostrar todos los emojis extraídos con respecto a su extensión.
+- El usuario será capaz de abrir varios emojis extraídos con la misma extensión o todos al mismo tiempo.
+
 # Extras
 ## Soportamos mutiples idiomas, mira la lista con los idiomas disponibles aquí abajo.
 - Español **[Estás aquí]**
@@ -60,7 +96,7 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 - Italiano
 
 # Contribuyentes
-### Muchas gracias
+### Muchas gracias a:
 - Javialon - Dirige la tradución en es-MX
 - Rallie - Dirige la traducción en tr-TR
 - MetaverseNova - Dirige la traducción en it-IT
