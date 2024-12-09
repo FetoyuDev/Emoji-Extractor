@@ -1,5 +1,7 @@
 #!/bin/bash
 
+dircustom="./extracted_Emojis"
+
 clear
 echo "This was translated by: fetoyudev_official - 🍭♡フェフェくん♡🍭"
 sleep 3
