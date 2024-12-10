@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
     border-style: dashed;
-    border-radius: 12%;
+    border-radius: 12px;
 }
 
 .imagem-blur {
@@ -25,7 +25,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("particulas.png");
+    background-image: url("files/images/f24071488.jpg");
     background-size: 100px 100px;
     animation: particulas 10s linear infinite;
 }
