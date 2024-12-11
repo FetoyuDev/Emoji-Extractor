@@ -3,7 +3,7 @@
 dircustom="./extracted_Emojis"
 
 clear
-echo ""
+echo "Translated by: Nova"
 sleep 3
 clear
 sleep 2
@@ -22,18 +22,18 @@ ext="png"
 mkdir -p extracted_Emojis
 echo ": PNG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
-echo "1. Default Folder"
-echo "2. Custom Folder"
+echo "Quel dossier voulez-vous utiliser pour enregistrer l'emoji extrait?"
+echo "1. Dossier par defaut"
+echo "2. Dossier personnalise"
 read -p "> " dircustom
 
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "l'emoji sera enregistre dans le dossier par defaut"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "Provide the path for your custom folder"
 read -p "> " dircustom
 echo "The emoji will be saved at custom folder"
 ;;
@@ -48,20 +48,20 @@ ext="jpg"
 mkdir -p extracted_Emojis
 echo ": JPG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
-echo "1. Default Folder"
-echo "2. Custom Folder"
+echo "Quel dossier voulez-vous utiliser pour enregistrer l'emoji extrait?"
+echo "1. Dossier par defaut"
+echo "2. Dossier personnalise"
 read -p "> " dircustom
 
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "l'emoji sera enregistre dans le dossier par defaut"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "ensert le chemin du dossier personnalise"
 read -p "> " dircustom
-echo "The emoji will be saved at custom folder"
+echo "l'emoji sera enregistre dans le dossier personnalise"
 ;;
 esac
 
@@ -74,20 +74,20 @@ ext="gif"
 mkdir -p extracted_Emojis
 echo ": GIF"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
-echo "1. Default Folder"
-echo "2. Custom Folder"
+echo "Quel dossier voulez-vous utiliser pour enregistrer l'emoji extrait?"
+echo "1. Dossier par defaut"
+echo "2. Dossier personnalise"
 read -p "> " dircustom
 
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "l'emoji sera enregistre dans le dossier par defaut"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "ensert le chemin du dossier personnalise"
 read -p "> " dircustom
-echo "The emoji will be saved at custom folder"
+echo "l'emoji sera enregistre dans le dossier personnalise"
 ;;
 esac
 
@@ -101,20 +101,20 @@ ext="webp"
 mkdir -p extracted_Emojis
 echo ": WEBP"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
-echo "1. Default Folder"
-echo "2. Custom Folder"
+echo "Quel dossier voulez-vous utiliser pour enregistrer l'emoji extrait?"
+echo "1. Dossier par defaut"
+echo "2. Dossier personnalise"
 read -p "> " dircustom
 
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "l'emoji sera enregistre dans le dossier par defaut"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "ensert le chemin du dossier personnalise"
 read -p "> " dircustom
-echo "The emoji will be saved at custom folder"
+echo "l'emoji sera enregistre dans le dossier personnalise"
 ;;
 esac
 

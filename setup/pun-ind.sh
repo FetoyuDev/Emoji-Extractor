@@ -22,7 +22,7 @@ ext="png"
 mkdir -p extracted_Emojis
 echo "Output Format Choosen: PNG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
+echo "In which folder would you like to save the extracted emoji?"
 echo "1. Default Folder"
 echo "2. Custom Folder"
 read -p "> " dircustom
@@ -30,10 +30,10 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "The emoji will be saved in the default folder"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "Provide the path for your custom folder"
 read -p "> " dircustom
 echo "The emoji will be saved at custom folder"
 ;;
@@ -48,7 +48,7 @@ ext="jpg"
 mkdir -p extracted_Emojis
 echo "Output Format Choosen: JPG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
+echo "In which folder would you like to save the extracted emoji?"
 echo "1. Default Folder"
 echo "2. Custom Folder"
 read -p "> " dircustom
@@ -56,10 +56,10 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "The emoji will be saved in the default folder"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "Provide the path for your custom folder"
 read -p "> " dircustom
 echo "The emoji will be saved at custom folder"
 ;;
@@ -74,7 +74,7 @@ ext="gif"
 mkdir -p extracted_Emojis
 echo "Output Format Choosen: GIF"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
+echo "In which folder would you like to save the extracted emoji?"
 echo "1. Default Folder"
 echo "2. Custom Folder"
 read -p "> " dircustom
@@ -82,10 +82,10 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "The emoji will be saved in the default folder"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "Provide the path for your custom folder"
 read -p "> " dircustom
 echo "The emoji will be saved at custom folder"
 ;;
@@ -100,7 +100,7 @@ ext="webp"
 mkdir -p extracted_Emojis
 echo "Output Format Choosen: WEBP"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "Which folder do you want save extracted emoji?"
+echo "In which folder would you like to save the extracted emoji?"
 echo "1. Default Folder"
 echo "2. Custom Folder"
 read -p "> " dircustom
@@ -108,10 +108,10 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "the emoji will be saved at default folder"
+echo "The emoji will be saved in the default folder"
 ;;
 "2")
-echo "Provide the path to custom folder"
+echo "Provide the path for your custom folder"
 read -p "> " dircustom
 echo "The emoji will be saved at custom folder"
 ;;
