@@ -31,10 +31,16 @@ sudo pacman install -Sy curl git --noconfirm
 sudo zypper install curl git -y
 ```
 
-# Setup
+# Setup (For desktop/laptop users)
 - Download this tool with
 ```bash
 git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
+```
+
+# Setup (For android/termux users) [Is the same thing of above, just remove "sudo" ]
+- Download this tool with
+```bash
+git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && chmod +X init.sh && sh init.sh
 ```
 
 # Getting Started
