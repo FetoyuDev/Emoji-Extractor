@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo "Это переведено: Blackbox.AI"
+echo "Это переведено: "
 sleep 3
 clear
 sleep 2
