@@ -4,11 +4,33 @@ Bu uygulama ile Discord'da kullandığınız emojileri istenilen bir formata dö
 # Not:
 - **Bu uygulama "curl" indirilmeden çalışmaz.**
 
-# Setup:
+# Kurulum
+### Debian/Ubuntu distroları için:
 - İndirmek için bu linki terminal'e girin.
 ```bash
 git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
 ```
+### Fedora/CentOS/Red Hat distroları için
+- Eğer "yum" paket yükleyicisini kullanıyorsanız:
+```bash
+sudo yum install curl git -y
+```
+
+- Eğer "dnf" paket yükleyicisini kullanıyorsanız:
+```bash
+sudo dnf install curl git -y
+```
+
+### Arch Linux distroları için:
+```bash
+sudo pacman install -Sy curl git --noconfirm
+```
+
+### openSUSE distroları için:
+```bash
+sudo zypper install curl git -y
+```
+
 # Başlamak için:
 ### Dil seçimi
 - Bu uygulamayı ilk defa çalıştırdığınız zaman bu ekran ile karşılaşacaksınız.
