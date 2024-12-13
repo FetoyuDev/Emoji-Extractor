@@ -31,7 +31,7 @@ sudo pacman install -Sy curl git --noconfirm
 sudo zypper install curl git -y
 ```
 
-# सेटअप (डेस्कटॉप/लैपटॉप उपयोगकर्ताओं के लिए)# Setup (For android/termux users) [Is the same thing of above, just remove "sudo" ]
+# सेटअप (डेस्कटॉप/लैपटॉप उपयोगकर्ताओं के लिए)
 - इस टूल को डाउनलोड करें
 ```bash
 git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
@@ -92,7 +92,7 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 #अतिरिक्त
 ## हम कई भाषाओं का समर्थन करते हैं, नीचे उपलब्ध भाषाओं की सूची देखें
-- Hindi --> **You are here!**
+- Hindi --> **आप यहां हैं!**
 - English --> [ DEVLOPER ADD LINK HERE ]
 - Turkish --> [See turkish guide](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-TR.md)
 - Portuguese --> [See portuguese guide](https://github.com/FetoyuDev/Emoji-Extractor/blob/main/README-PT.md)
