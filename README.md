@@ -43,6 +43,9 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && chmod +X init.sh && sh init.sh
 ```
 
+# Windows
+- if you are looking for a windows version of this tool, [you can download here](https://github.com/Javialonqv/EmojiExtractorTool/releases/tag/Release)
+
 # Getting Started
 ### Choosing your language
 - For the first time you start this script, you'll see this
