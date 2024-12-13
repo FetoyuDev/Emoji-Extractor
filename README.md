@@ -108,3 +108,4 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 - [@Javialonqv](https://github.com/Javialonqv) - Lead es-MX
 - [@Rallieblegh](https://github.com/rallieblegh) - Lead tr-TR
 - [@Metaversnova](https://github.com/metaversnova) - Lead it-IT
+- [@Foxfiretyrant](https://github.com/FoxFireTyrant)
