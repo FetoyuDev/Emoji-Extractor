@@ -105,6 +105,6 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 
 # Contributors
 ### Thank you so much
-- Javialon - Lead es-MX
+- [@Javialonqv](https://github.com/Javialonqv) - Lead es-MX
 - Rallie - Lead tr-TR
 - MetaverseNova - Lead it-IT
