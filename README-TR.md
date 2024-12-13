@@ -3,13 +3,8 @@ Bu uygulama ile Discord'da kullandığınız emojileri istenilen bir formata dö
 
 # Not:
 - **Bu uygulama "curl" indirilmeden çalışmaz.**
+- **Eğer "curl"'ü indirmeyi bilmiyorsanız aşağıdaki komutlardan birini kullanabilirsiniz**
 
-# Kurulum
-### Debian/Ubuntu distroları için:
-- İndirmek için bu linki terminal'e girin.
-```bash
-git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
-```
 ### Fedora/CentOS/Red Hat distroları için
 - Eğer "yum" paket yükleyicisini kullanıyorsanız:
 ```bash
@@ -31,16 +26,32 @@ sudo pacman install -Sy curl git --noconfirm
 sudo zypper install curl git -y
 ```
 
+# Kurulum
+### Debian/Ubuntu distroları için:
+- İndirmek için bu linki terminal'e girin.
+```bash
+git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
+```
+### Android/Termux için:
+- Bu linki terminal'e girin.
+```bash
+git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && chmod +X init.sh && sh init.sh
+```
+# Windows için:
+- Eğer Windows kullanıyorsanız, [uygulamayı buradan indirebilirsiniz (Javialon tarafından port edildi!)](https://github.com/Javialonqv/EmojiExtractorTool/releases/tag/Release)
+
 # Başlamak için:
 ### Dil seçimi
 - Bu uygulamayı ilk defa çalıştırdığınız zaman bu ekran ile karşılaşacaksınız.
 
-![Example image 1](https://cdn.discordapp.com/attachments/1315350198788292702/1315350218728013924/image.png?ex=675716da&is=6755c55a&hm=f0478fe41a648b3381714541ba7cd3027573db6450858bbaed8a8abfc225cd8b&)
+![image](https://github.com/user-attachments/assets/c2064783-a108-4a98-a6a2-37da8177495c)
+
 
 ### Emoji ID Girişi
 - Dil seçiminden sonra, bu ekranla karşılaşacaksınız.
 
-![Example image 2](https://cdn.discordapp.com/attachments/1315350198788292702/1315350583695118376/image.png?ex=67571731&is=6755c5b1&hm=014925e3201f9a335f383b61c0b8479efa95f3c0c0fb3aca409a415640e64997&)
+![image](https://github.com/user-attachments/assets/691e3fd6-9db2-4712-a72c-7650362b583c)
+
 
 - Şu anda istediğiniz emojinin ID'sini yapıştırmanız gerekiyor. Örnek olarak bu emojiyi kullanacağım.
   
@@ -49,16 +60,19 @@ sudo zypper install curl git -y
 ### Dosya formatı seçimi
 - Emoji id'sini yapıştırdıktan sonra bu ekranla karşılaşacaksınız
 
-![Example image 4](https://cdn.discordapp.com/attachments/1315350198788292702/1315351321808994375/image.png?ex=675717e1&is=6755c661&hm=a2d92d487ce0499cd9d444986f30733146cd0f39d44ab36efbe407feaf8f5a0a&)
+![image](https://github.com/user-attachments/assets/b3099a8e-96eb-493b-87fd-72c7ee9051e9)
+
 
 - Şu anda istediğiniz formatı seçebilirsiniz. Örnek olarak PNG'yi seçiyorum.
 
-![Example image 5](https://cdn.discordapp.com/attachments/1315350198788292702/1315351985125326989/image.png?ex=6757187f&is=6755c6ff&hm=4ced6dfcf5fe8f294c72c6c47b6355b71a8d12f9efd1523b82f1302f66af92c8&)
+![image](https://github.com/user-attachments/assets/f99580a8-285a-456f-9ac9-dd7cd26ec837)
+
 
 ### Dönüştürülen emojinin indirildiği yer
 - Enter'a bastığınız zaman, dosyanız "extracted_Emojis" klasöründe kaydedilmiş olacak
 
-![Example image 6](https://cdn.discordapp.com/attachments/1315350198788292702/1315355324667920394/image.png?ex=67571b9b&is=6755ca1b&hm=598ff19b2764e421eb95070e8de60efccbba8865a328345dd9a98952fa96ea3b&)
+![image](https://github.com/user-attachments/assets/74edf39f-aeea-4855-b76b-6dca26c3e20d)
+
 
 ### Tamamdır!
 - Örnek burada!
