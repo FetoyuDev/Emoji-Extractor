@@ -84,7 +84,7 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 ### What's new?
 - Added support to save extracted emojis in a custom folder
 - Fixed some bugs that would cause confusion in some users depending of their language
-- Added "How to install curl and git in diffferent distros" instruction
+- Added "How to install curl and git in different distros" instruction
 
 ### What's next?
 - Will be added a summary system to show all extracted emojis, regarding of emoji extension
