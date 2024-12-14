@@ -100,3 +100,4 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 - [@Javialonqv](https://github.com/Javialonqv) - Dirige la tradución en es-MX
 - [@Rallieblegh](https://github.com/rallieblegh) - Dirige la traducción en tr-TR
 - [@Metaversnova](https://github.com/metaversnova) - Dirige la traducción en it-IT
+- [@Foxfiretyrant](https://github.com/FoxFireTyrant) - Dirige la traducción en pun-IND, hin-IND
