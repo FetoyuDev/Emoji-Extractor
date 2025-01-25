@@ -31,11 +31,25 @@ sudo pacman install -Sy curl git --noconfirm
 sudo zypper install curl git -y
 ```
 
-# Setup (For desktop/laptop users)
-- Download this tool with
+## Setup (For Desktop or Laptop Users)
+
+### Step 1: Download and Set Up the Tool
+- 1. Open the terminal.
+- 2. Run the following command to clone the repository and set up the tool:
+
 ```bash
 git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
 ```
+
+### Step 2: Enable the `emojiextractor` Command
+
+- 1. To make the emojiextractor command available in your terminal, run the following command:
+```bash
+echo 'export PATH="$HOME/Emoji-Extractor:$PATH"' >> "$HOME/.bashrc" && ln -sf "$HOME/Emoji-Extractor/start.sh" "$HOME/Emoji-Extractor/emojiextractor" && chmod +x "$HOME/Emoji-Extractor/start.sh" && source "$HOME/.bashrc"
+```
+
+Now, the tool is ready to use! 🎉 <br>
+Just type `emojiextractor` in the terminal to start.
 
 # Setup (For android/termux users) [Is the same thing of above, just remove "sudo" ]
 - Download this tool with

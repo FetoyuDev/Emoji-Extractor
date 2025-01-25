@@ -1,5 +1,6 @@
 #!/bin/bash
 
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)/.."
 dircustom="./extracted_Emojis"
 
 clear
@@ -7,12 +8,12 @@ echo "Esto fue traducido por: javialon_qv - Javialon_qv"
 sleep 3
 clear
 sleep 2
-cat ./lang/es.txt
+cat $BASE_DIR/lang/es.txt
 echo ""
 read -p "> " emoji_id
 sleep 1
 clear
-cat ./lang/choice/es.txt
+cat $BASE_DIR/lang/choice/es.txt
 echo ""
 read -p "> " ext
 
