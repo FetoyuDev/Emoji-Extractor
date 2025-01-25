@@ -1,16 +1,19 @@
 #!/bin/bash
 
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)/.."
+dircustom="./extracted_Emojis"
+
 clear
 echo "Это переведено: "
 sleep 3
 clear
 sleep 2
-cat ./lang/ru.txt
+cat $BASE_DIR/lang/ru.txt
 echo ""
 read -p "> " emoji_id
 sleep 1
 clear
-cat ./lang/choice/ru.txt
+cat $BASE_DIR/lang/choice/ru.txt
 echo ""
 read -p "> " ext
 

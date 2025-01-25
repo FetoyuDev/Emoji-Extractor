@@ -1,16 +1,19 @@
 #!/bin/bash
 
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)/.."
+dircustom="./extracted_Emojis"
+
 clear
 echo "これは翻訳されました: fetoyudev_official - 🍭♡フェフェくん♡🍭"
 sleep 3
 clear
 sleep 2
-cat ./lang/jp.txt
+cat $BASE_DIR/lang/jp.txt
 echo ""
 read -p "> " emoji_id
 sleep 1
 clear
-cat ./lang/choice/jp.txt
+cat $BASE_DIR/lang/choice/jp.txt
 echo ""
 read -p "> " ext
 
