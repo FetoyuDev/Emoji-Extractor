@@ -87,12 +87,12 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 ### Finding your extracted emoji
 - Done, you emoji has saved in "extracted_Emojis" folder
 
-![Example image 6](https://fetoyudev.github.io/Emoji-Extractor/files/images/Screenshot%20From%202025-01-25%2002-25-01.png)
+![Example image 6](https://fetoyudev.github.io/Emoji-Extractor/files/images/Screenshot%20From%202025-01-27%2022-37-55.png)
 
 ### You've done, have fun
 - See this example
 
-![Example image 7](https://fetoyudev.github.io/Emoji-Extractor/files/images/Screenshot%20From%202025-01-25%2002-25-01.png)
+![Example image 7](https://fetoyudev.github.io/Emoji-Extractor/files/images/Screenshot%20From%202025-01-27%2022-38-02.png)
 
 
 ### What's new?
