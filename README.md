@@ -38,7 +38,7 @@ sudo zypper install curl git -y
 - 2. Run the following command to clone the repository and set up the tool:
 
 ```bash
-git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
+git clone https://github.com/FetoyuDev/Emoji-Extractor.git ~ && cd Emoji-Extractor && sudo chmod +X init.sh && sh init.sh
 ```
 
 ### Step 2: Enable the `emojiextractor` Command
