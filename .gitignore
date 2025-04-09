@@ -4,3 +4,7 @@ extracted_Emojis/
 .README-IT.md
 .README-JP.md
 .README-RU.md
+setup/.fr.sh
+setup/.it-IT.sh
+setup/.jp.sh
+setup/.ru.sh
