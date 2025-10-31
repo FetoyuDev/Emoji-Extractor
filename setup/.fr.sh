@@ -31,12 +31,12 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "l'emoji sera enregistre dans le dossier par defaut"
+echo "l'emoji sera enregistrée dans le dossier par défaut"
 ;;
 "2")
-echo "Provide the path for your custom folder"
+echo "Fournissez le chemin du dossier personnalisé"
 read -p "> " dircustom
-echo "The emoji will be saved at custom folder"
+echo "L'emoji sera enregistrée dans le dossier personnalisé"
 ;;
 esac
 
@@ -57,12 +57,12 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "l'emoji sera enregistre dans le dossier par defaut"
+echo "l'emoji sera enregistrée dans le dossier par défaut"
 ;;
 "2")
-echo "ensert le chemin du dossier personnalise"
+echo "Insérez le chemin du dossier personnalisé"
 read -p "> " dircustom
-echo "l'emoji sera enregistre dans le dossier personnalise"
+echo "l'emoji sera enregistrée dans le dossier personnalisé"
 ;;
 esac
 
@@ -83,12 +83,12 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "l'emoji sera enregistre dans le dossier par defaut"
+echo "l'emoji sera enregistrée dans le dossier par défaut"
 ;;
 "2")
-echo "ensert le chemin du dossier personnalise"
+echo "Insérez le chemin du dossier personnalisé"
 read -p "> " dircustom
-echo "l'emoji sera enregistre dans le dossier personnalise"
+echo "l'emoji sera enregistrée dans le dossier personnalisé"
 ;;
 esac
 
@@ -110,12 +110,12 @@ read -p "> " dircustom
 case $dircustom in
 "1")
 dircustom="./extracted_Emojis"
-echo "l'emoji sera enregistre dans le dossier par defaut"
+echo "l'emoji sera enregistrée dans le dossier par défaut"
 ;;
 "2")
-echo "ensert le chemin du dossier personnalise"
+echo "Insérez le chemin du dossier personnalisé"
 read -p "> " dircustom
-echo "l'emoji sera enregistre dans le dossier personnalise"
+echo "l'emoji sera enregistrée dans le dossier personnalisé"
 ;;
 esac
 

@@ -1,0 +1,5 @@
+1: Scegli il formato di output
+2: 1. PNG
+3: 2. JPG
+4: 3. GIF
+5: 4. WEBP

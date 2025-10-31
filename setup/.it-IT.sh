@@ -49,7 +49,7 @@ ext="jpg"
 mkdir -p extracted_Emojis
 echo ": JPG"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "In which folder would you like to save the extracted emoji?"
+echo "In quale cartella vorresti salvare l'emoji estratta?"
 echo "1. Cartella predefinita"
 echo "2. Cartella personalizzata"
 read -p "> " dircustom
@@ -75,7 +75,7 @@ ext="gif"
 mkdir -p extracted_Emojis
 echo ": GIF"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "In which folder would you like to save the extracted emoji?"
+echo "In quale cartella vorresti salvare l'emoji estratta?"
 echo "1. Cartella predefinita"
 echo "2. Cartella personalizzata"
 read -p "> " dircustom
@@ -101,7 +101,7 @@ ext="webp"
 mkdir -p extracted_Emojis
 echo ": WEBP"
 echo "" # It's a separator, don't remove this line or add text here, please, ok?
-echo "In which folder would you like to save the extracted emoji?"
+echo "In quale cartella vorresti salvare l'emoji estratta?"
 echo "1. Cartella predefinita"
 echo "2. Cartella personalizzata"
 read -p "> " dircustom
@@ -122,8 +122,8 @@ esac
 curl -L --output $dircustom/extracted_$emoji_id.$ext https://cdn.discordapp.com/emojis/$emoji_id.$ext
 echo ""
 ;;
-*) 
-echo ""
+*)
+echo "Opzione non valida"
 exit 1
 ;;
 esac
