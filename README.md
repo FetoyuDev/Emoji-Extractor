@@ -124,3 +124,4 @@ git clone https://github.com/FetoyuDev/Emoji-Extractor.git && cd Emoji-Extractor
 - [@Metaversnova](https://github.com/metaversnova) - Lead it-IT
 - [@Foxfiretyrant](https://github.com/FoxFireTyrant) - Lead pun-IND, hin-IND
 - [@XDukeHD](https://github.com/xdukehd) - Did the last update and created the repo site
+- [@Vuln](https://github.com/yhy557) - Fixed some errors at Turkish localization
