@@ -1,4 +1,0 @@
-Bem-vindo ao Discord Emoji Extractor Tool
-Esta ferramenta irá extrair todos os emojis de qualquer servidor do Discord
-Você só precisará ter o ID de qualquer emoji que você queira extrair
-Por favor, insira o ID do emoji que você deseja extrair

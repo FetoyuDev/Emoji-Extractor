@@ -1,4 +1,0 @@
-Benvenuto allo strumento per l'extrazione degli Discord emoji 
-Questo vi permette di scaricare qualsiasi emoji presente su Discord
-Hai soltanto bisogno dell'ID dell' emoji che desideri scaricare
-Inserisci l'ID dell'emoji che desideri scaricare

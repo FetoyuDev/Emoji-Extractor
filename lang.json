@@ -1,0 +1,70 @@
+{
+  "1": {
+    "lang_name": "turkish",
+    "sentences": {
+      "s1": "Nova ve Fetoyu tarafından çevrildi",
+      "s2": "Devam etmek için Enter tuşuna bas",
+      "s3": "Emojinin ID'sini gir",
+      "s4": "Çıktının hangi formatta olacağını seç",
+      "s5": "Geçersiz format",
+      "s6": "Çıktı dizinin yolunu gir",
+      "s7": "1. Varsayılan dizin",
+      "s8": "2. Özel dizin",
+      "s9": "Özel dizinin yolunu gir: ",
+      "s10": "Geçersiz dizin",
+      "s11": "Emoji başarıla çıkarıldı",
+      "s12": "Emojiyi çıkartırken bir hata oluştu"
+    }
+  },
+  "2": {
+    "lang_name": "english",
+    "sentences": {
+      "s1": "Translated by Nova and Fetoyu",
+      "s2": "Press Enter to continue",
+      "s3": "Enter Emoji ID",
+      "s4": "Choose output format",
+      "s5": "Invalid format",
+      "s6": "Select the output directory:",
+      "s7": "1. Default directory",
+      "s8": "2. Custom directory",
+      "s9": "Enter the custom directory path: ",
+      "s10": "Invalid directory",
+      "s11": "Emoji extracted successfully!",
+      "s12": "Error extracting the emoji"
+    }
+  },
+  "3": {
+    "lang_name": "portuguese",
+    "sentences": {
+        "s1": "Traduzido por Fetoyu",
+        "s2": "Pressione ENTER Para Continuar",
+        "s3": "Digite o ID do Emoji",
+        "s4": "Escolha o formato de saída",
+        "s5": "Formato Inválido",
+        "s6": "Selecione o diretório de saída:",
+        "s7": "1. Diretório padrão",
+        "s8": "2. Diretório personalizado",
+        "s9": "Digite o caminho do diretório personalizado: ",
+        "s10": "Diretório inválido",
+        "s11": "Emoji extraído com sucesso!",
+        "s12": "Erro ao extrair o emoji"
+    }
+  },
+  "4": {
+    "lang_name": "spanish",
+    "sentences": {
+        "s1": "Traducido por Javialonqv",
+        "s2": "Presione ENTER para continuar",
+        "s3": "Ingrese el ID del Emoji",
+        "s4": "Elija el formato de salida",
+        "s5": "Formato inválido",
+        "s6": "Seleccione el directorio de salida:",
+        "s7": "1. Directorio predeterminado",
+        "s8": "2. Directorio personalizado",
+        "s9": "Ingrese el directorio personalizado: ",
+        "s10": "Directorio inválido",
+        "s11": "Emoji extraído con éxito!",
+        "s12": "Error al extraer el emoji"
+    }
+  }
+}

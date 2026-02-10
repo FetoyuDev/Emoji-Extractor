@@ -1,5 +1,0 @@
-Dönüştürmek istediğiniz formatı seçiniz:
-1. PNG   (Şeffaflık için bunu seçiniz.)
-2. JPG   (Klasik fotoğraf dosyası formatı.)
-3. GIF   (Animasyonlu emojiler için bunu seçiniz.)
-4. WEBP  (Web uygulamalarında kolaylık sağlaması için bunu seçiniz.)
